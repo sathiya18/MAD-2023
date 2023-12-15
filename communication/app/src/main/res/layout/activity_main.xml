@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="cse.pec.sathiya.services_demo2.MainActivity">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tester"/>
+
+    <Button
+        android:id="@+id/btnStartStartedService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="startStartedService"
+        android:text="Start the Started Service"/>
+
+    <Button
+        android:id="@+id/btnStopStartedService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartStartedService"
+        android:onClick="stopStartedService"
+        android:text="Stop the Started Service"/>
+    <Button
+        android:id="@+id/btnStartIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartStartedService"
+        android:layout_marginTop="100dp"
+        android:onClick="startIntentService"
+        android:text="Start Intent Service"/>
+    <TextView
+        android:id="@+id/txvStartedServiceResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStopStartedService"
+        android:text="Started Service Result Here"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/txvIntentServiceResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartIntentService"
+        android:text="Intent Service Result Here"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bound Service Demo Activity"
+        android:onClick="moveToSecondActivity"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
