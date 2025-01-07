@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        <style name="AppSmallText">
+            <item name="android:fontFamily">monospace</item>
+            <item name="android:textSize">12sp</item>
+            <item name="android:textColor">#616161</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <style name="AppMediumText">
+            <item name="android:fontFamily">monospace</item>
+            <item name="android:textSize">15sp</item>
+            <item name="android:textColor">#616161</item>
+            <item name="android:textStyle">italic</item>
+        </style>
+
+        <style name="AppLargeText">
+            <item name="android:textColor">#616161</item>
+            <item name="android:fontFamily">monospace</item>
+            <item name="android:textSize">18sp</item>
+        </style>
+
+        <style name="AppExtraLargeText">
+            <item name="android:textColor">#616161</item>
+            <item name="android:fontFamily">monospace</item>
+            <item name="android:textSize">22sp</item>
+        </style>
+
+        <style name="AppExtraLargeTextLight">
+            <item name="android:textColor">#909090</item>
+            <item name="android:fontFamily">monospace</item>
+            <item name="android:textSize">22sp</item>
+        </style> -->
+
+    <style name="MyRadioButton">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textColor">#F00</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">My Radio Button</item>
+    </style>
+
+</resources>
+
+    <!-- Implicit Inheritance -->
+    <!--<resources>-->
+
+    <!--<style name="AppFont">-->
+    <!--<item name="android:fontFamily">monospace</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorPrimary">-->
+    <!--<item name="android:textColor">#616161</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorLight">-->
+    <!--<item name="android:textColor">#909090</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorPrimary.AppSmallText">-->
+    <!--<item name="android:textSize">12sp</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorPrimary.AppMediumText">-->
+    <!--<item name="android:textSize">15sp</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorPrimary.AppLargeText">-->
+    <!--<item name="android:textSize">18sp</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorPrimary.AppExtraLargeText">-->
+    <!--<item name="android:textSize">22sp</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="AppFont.AppFontColorLight.AppExtraLargeTextLight">-->
+    <!--<item name="android:textSize">22sp</item>-->
+    <!--</style>-->
+
+    <!--</resources>-->

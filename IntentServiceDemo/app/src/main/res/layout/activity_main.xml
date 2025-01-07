@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tester"/>
+
+    <Button
+        android:id="@+id/btnStartStartedService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="startStartedService"
+        android:text="Start the Started Service"/>
+
+    <Button
+        android:id="@+id/btnStopStartedService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartStartedService"
+        android:onClick="stopStartedService"
+        android:text="Stop the Started Service"/>
+
+    <Button
+        android:id="@+id/btnStartIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartStartedService"
+        android:layout_marginTop="100dp"
+        android:onClick="startIntentService"
+        android:text="Start Intent Service"/>
+
+</RelativeLayout>
